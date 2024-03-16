@@ -170,3 +170,14 @@
   padding: 12px 28px;
   margin-top: 35px;
 }
+
+.footer {
+  background-color: black;
+  height: 30px;
+  padding: 30px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
