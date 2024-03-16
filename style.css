@@ -3,23 +3,30 @@
 }
 
 .header {
-  background-color: #1f2937;
+  background-color: black;
   color: #f9faf8;
   display: flex;
   font-size: 24px;
   justify-content: space-between;
-  padding: 20px 250px;
+  padding: 20px 350px;
+}
+
+.logo {
+  width: 200px;
+  height: 120px;
 }
 
 .headerLinks {
   color: #e5e7eb;
   display: flex;
   font-size: 18px;
-  gap: 18px;
+  margin-top: 40px;
+  margin-right: 50px;
+  gap: 70px;
 }
 
 .hero {
-  background-color: #1f2937;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 100px 300px;
@@ -31,18 +38,22 @@
   color: #f9faf8;
   font-size: 40px;
   font-weight: bolder;
+  text-align: center;
+  width: 500px;
 }
 
 .heroText {
   color: #e5e7eb;
   font-size: 18px;
   padding-left: 15px;
+  text-align: center;
+  width: 500px;
 }
 
 .heroImage {
   padding-right: 100px;
-  width: 300px;
-  height: 168px;
+  width: 400px;
+  height: 200px;
 }
 
 .card {
@@ -53,12 +64,27 @@
   margin-bottom: 200px;
 }
 
-.img {
+.cardInfo {
+  color: black;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.cardImage {
   width: 200px;
   height: 200px;
 }
 
+.cardSubText {
+  color: black;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  width: 180px;
+}
+
 .quote {
-  background-color: #e5e7eb3f;
-  display: flex;
+  
 }
