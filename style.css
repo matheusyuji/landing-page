@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-.header {
+.header-container {
   background-color: black;
   color: #f9faf8;
   display: flex;
@@ -16,16 +16,16 @@
   height: 120px;
 }
 
-.headerLinks {
+.header-links {
   color: #e5e7eb;
   display: flex;
   font-size: 18px;
   margin-top: 40px;
   margin-right: 50px;
-  gap: 70px;
+  gap: 110px;
 }
 
-.hero {
+.hero-container {
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,14 @@
   gap: 100px;
 }
 
-.heroTitle {
+.hero-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-title {
   color: #f9faf8;
   font-size: 40px;
   font-weight: bolder;
@@ -42,21 +49,33 @@
   width: 500px;
 }
 
-.heroText {
+.hero-text {
   color: #e5e7eb;
   font-size: 18px;
   padding-left: 15px;
   text-align: center;
   width: 500px;
+  margin-bottom: 50px;
 }
 
-.heroImage {
+.hero-info button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 12px 28px;
+}
+
+.hero-image {
   padding-right: 100px;
   width: 400px;
   height: 200px;
+  border-radius: 10px;
 }
 
-.card {
+.card-container {
   display: flex;
   justify-content: center;
   gap: 52px;
@@ -64,7 +83,7 @@
   margin-bottom: 100px;
 }
 
-.cardInfo {
+.card-info {
   color: black;
   font-size: 36px;
   font-weight: bolder;
@@ -72,12 +91,14 @@
   padding-top: 70px;
 }
 
-.cardImage {
+.card-image {
   width: 200px;
   height: 200px;
+  border: 4px solid black;
+  border-radius: 20px;
 }
 
-.cardSubText {
+.card-subtext {
   color: black;
   font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
@@ -85,7 +106,7 @@
   width: 180px;
 }
 
-.quote {
+.quote-container {
   background-color: gray;
   display: flex;
   height: 500px;
@@ -94,7 +115,7 @@
   flex-direction: column;
 }
 
-.quoteText {
+.quote-text {
   color: black;
   font-size: 36px;
   font-style: italic;
@@ -108,3 +129,19 @@
   font-size: 36px;
   padding-right: 480px;
 }
+
+.waist-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
+
+.waist-box {
+  background-color: black;
+  display: flex;
+  height: 120px;
+  width: 1400px;
+  border-radius: 20px;
+}
+
